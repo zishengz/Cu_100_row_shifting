@@ -1,0 +1,47 @@
+SYSTEM = sc-single-point
+ISTART  = 0
+ICHARG = 2
+
+#NWRITE=4
+
+ISPIN = 1
+ENCUT = 400
+ISMEAR  = 0
+SIGMA = 0.1
+
+GGA = RP
+#IVDW= 4  ! DFT-D3
+
+ISYM = 0
+AMIX = 0.0100000
+BMIX = 0.000010
+
+LREAL = Auto  
+EDIFF = 1e-6
+EDIFFG= -0.03
+#PREC = A
+ALGO = F
+NPAR=8
+
+NELM = 400
+NELMIN = 5
+#NELMDL = -10
+
+NSW = 0
+POTIM = 0.4
+IBRION = 2  !low_accuracy use qn
+ISIF=2
+
+#IDIPOL=3
+#LDIPOL=.TRUE.
+
+LWAVE=F
+LCHARG=F
+
+LSOL = .TRUE.
+EB_K = 78.400000
+TAU = 0.000000
+LAMBDA_D_K = 3.000000
+
+# nelect to be added at the end
+
